@@ -1,0 +1,61 @@
+h3{
+    color:darkgreen;
+    font-weight:normal;
+}
+.nigomoty{
+    color:darkmagenta;
+    font-size: medium;
+}
+#doginigga{
+    color:pink;
+    font-weight: lighter;
+}
+[href]{
+    color: red;
+}
+[href="https://google.com"]{
+    color: blue;
+}
+[href="https://facebook.com"]{
+    color:aqua
+}
+input[disabled]{
+    background-color: rgb(231, 189, 189);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+input:focus{
+    background-color: rgb(43, 228, 228);
+    padding: 8px;
+}
+h2{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0px;
+}
+h3{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0px;
+}
+button{
+    color:white;
+    background-color: green;
+}
+div{
+    width: 364px;
+    margin: 10px;
+}
+input{
+    padding:8px;
+}
+button{
+    padding: 8px;
+    width: 75px;
+    border-radius: 2px;
+    border-color: green;
+}

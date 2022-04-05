@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attr Validat</title>
+    <link rel="stylesheet" href="./main.css">
+    
 </head>
-<body>
+<body bgcolor="aqua">
+    
     <form for="">
         <label>
             Nombre
             <input name="Name" value="Andrew" type="text" readonly >
         </label>
         <br>
-        <label>
+        <label for="hola">
             Apellido
             <input name="LastName" type="text" required>
         </label>
@@ -25,7 +28,7 @@
         <br>
         <label>
             Edad
-            <input name="Edad" type="number" required>
+            <input name="Edad" type="number" required id="hola">
         </label>
         <br>
         <label>
@@ -45,6 +48,41 @@
         <br>
         <button>Enviar Info Coñño002</button>
         <button>Hola version 02</button>
+        <table border="2" style="width:100%">
+            <tr>
+                <td bgcolor="green">1</td>
+                <td bgcolor="pink">2</td>
+                <td bgcolor="red" colspan="2" rowspan="2">3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </table>
+        <h3>text in h3 color and font weight</h3>
+        <h3 class="nigomoty">hola en other</h3>
+        <h3 id="doginigga">hola en codynigga</h3>
     </form>
+    <a href="https://google.com">Google</a><br>
+    <a href="https://facebook.com">Facebook</a><br>
+    <a href="https://twitter.com">Twitter</a><br>
+    <a href="https://youtube.com">Youtube</a><br>
+    <input type="text" disabled>
+    <input type="text">
+
+    <ul>
+        <li><a href="">1</a></li>
+        <li><a href="">2</a></li>
+        <li><a href="">3</a></li>
+        <li><a href="">4</a></li>
+    </ul>
 </body>
 </html>
